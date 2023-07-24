@@ -47,7 +47,7 @@ El presente documento contiene en detalle la implementación de un proyecto de a
 
 Principalmente se hará uso de Apache Kafka para el consumo de los datos de topicos definidos; Azure para el despliegue de la infraestructura LakeHouse y PowerBI para el consumo de los datos almacenados y la creación de reportes.
 
-![Diagrama de contexto del sistema.](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/C4_arquitectura_del_sistema..drawio_(1).svg)
+![Diagrama de contexto del sistema.](https://github.com/sapuertaf/AzureInfraestructure/blob/main/StreamingETLKafka/resources/C4ModelKafka.drawio.svg)
 
 Diagrama de contexto del sistema.
 
@@ -249,7 +249,7 @@ En lugar de usar Azure para el despliegue del LakeHouse, haremos uso de la plata
 
 Principalmente se hará uso de Apache Kafka para el consumo de los datos de topicos definidos; Databricks Notebooks para el procesamiento y carga en el DBFS de los datos entrantes de los tópicos Kafka y el DBFS para el almacenamiento de los mismos.
 
-![Diagrama de componentes del sistema: Espacio de trabajo de Databricks.](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/C4ModelDbfs.drawio.svg)
+![Diagrama de componentes del sistema: Espacio de trabajo de Databricks.](https://github.com/sapuertaf/AzureInfraestructure/blob/main/StreamingETLDbfs/resources/C4ModelDbfs.drawio.svg)
 
 Diagrama de componentes del sistema: Espacio de trabajo de Databricks.
 
@@ -265,7 +265,7 @@ A continuación, se explica brevemente los recursos usados y su función.
 
 En este video se detalla la creación de la infraestructura para la implementación del proyecto recientemente descrito. 
 
-[gvo-sfex-fty (2023-07-24 12_36 GMT-5).mp4](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/gvo-sfex-fty_(2023-07-24_12_36_GMT-5).mp4)
+[Implementación Infraestructura Databricks.mp4](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/gvo-sfex-fty_(2023-07-24_12_36_GMT-5).mp4)
 
 ### Código implementado para la solución
 
