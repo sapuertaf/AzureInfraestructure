@@ -41,7 +41,7 @@ A continuación, se explica brevemente la infraestructura creada y a ser usada:
 
 En este video se detalla la creación de la infraestructura para la implementación de un proyecto de analítica completo haciendo uso de la arquitectura Data Lake House. Además, se muestra la integración de los sistemas de almacenamiento de datos con herramientas de visualización para la construcción de dashboards que soporten la toma de decisiones basadas en datos.  
 
-[Contexto Azure.mp4](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/Contexto_Azure.mp4)
+[Contexto Azure.mp4](https://www.notion.so/ronald-notebook/Contexto-anal-tica-Nube-Microsoft-Azure-f2a6703d23f94e879cf73475bc1aa8e3#4cb71f36a27a448eb179f4bc5028c03a)
 
 ### Codigo implementado para la solución
 
