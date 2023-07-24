@@ -12,11 +12,11 @@ Date: 29/06/2023
     3. [Video explicativo.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#3-video-explicativo)
     - [Código implementado para la solución.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#c%C3%B3digo-implementado-para-la-soluci%C3%B3n)
         1. [Importación de librerías.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
-        2. [Variables globales a ser usadas en el programa.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
-        3. [Creación del esquema de datos.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
-        4. [Extracción, partición y carga de datos en capa raw.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
-        5. [Simulación del stream y carga de datos en capa silver.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
-        6. [Detener procesos de spark streaming.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#1-importaci%C3%B3n-de-librer%C3%ADas)
+        2. [Variables globales a ser usadas en el programa.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#2-variables-globales-a-ser-usadas-en-el-programa)
+        3. [Creación del esquema de datos.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#3-creaci%C3%B3n-del-esquema-de-datos)
+        4. [Extracción, partición y carga de datos en capa raw.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#4-extracci%C3%B3n-partici%C3%B3n-y-carga-de-datos-en-capa-raw)
+        5. [Simulación del stream y carga de datos en capa silver.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#5-simulaci%C3%B3n-del-stream-y-carga-de-datos-en-capa-silver)
+        6. [Detener procesos de spark streaming.](https://github.com/sapuertaf/AzureInfraestructure/tree/main/StreamingETLDbfs#6-detener-procesos-de-spark-streaming)
 
 ### Enlaces externos
 
