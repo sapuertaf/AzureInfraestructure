@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2023-07-24T17:31:57.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="p9Vp5gvdqYdOzk4OyiRm" type="device">
+  <diagram id="-Zqu-iX-Tusbtb-7affT" name="Diagrama de componentes DataBricks">
+    <mxGraphModel dx="2389" dy="2911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G3ME666Q92qwcPsf1QOO-7" value="" style="swimlane;startSize=30;dashed=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="-778.6600000000001" y="-2260" width="754.67" height="460" as="geometry">
+            <mxRectangle x="-560" y="-2110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-8" value="" style="group" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-7">
+          <mxGeometry x="34.660000000000025" y="430" width="270" height="30" as="geometry" />
+        </mxCell>
+        <object label="" id="G3ME666Q92qwcPsf1QOO-9">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-8">
+            <mxGeometry x="10" y="5" width="20" height="20" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Databricks Work Space&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(Container)&lt;/font&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-8">
+          <mxGeometry x="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-704" y="-2220" width="280" height="150" as="geometry">
+            <mxRectangle x="-560" y="-2110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-12" value="Permite el almacenamiento y consulta de datos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-11">
+          <mxGeometry x="37" y="80" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-13" value="" style="group" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-11">
+          <mxGeometry x="30" y="20" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://thenounproject.com/api/private/icons/1054508/edit/?backgroundShape=SQUARE&amp;backgroundShapeColor=%23000000&amp;backgroundShapeOpacity=0&amp;exportSize=752&amp;flipX=false&amp;flipY=false&amp;foregroundColor=%23000000&amp;foregroundOpacity=1&amp;imageFormat=png&amp;rotation=0;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-13">
+          <mxGeometry y="5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DBFS&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(Compontente: Sistema de &lt;br&gt;archivos Databricks)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-13">
+          <mxGeometry x="40" y="-10" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="G3ME666Q92qwcPsf1QOO-18" target="G3ME666Q92qwcPsf1QOO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-37" value="Leer datos de entrada&lt;br&gt;(CSV)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-36">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-18" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-704" y="-2020" width="280" height="150" as="geometry">
+            <mxRectangle x="-560" y="-2110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-19" value="" style="group" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-18">
+          <mxGeometry x="30" y="16" width="225" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-20" value="Permite el procesamiento de los datos entrantes de un topico de Kafka, ademas, de la escritura de los mismos en el DBFS." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-19">
+          <mxGeometry x="5" y="68" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-21" value="" style="group" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-19">
+          <mxGeometry width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D4D4D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_notebook;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-21">
+          <mxGeometry y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Notebooks&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(Componente: Python Scripts o &lt;br&gt;Jupyter Notebooks)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-21">
+          <mxGeometry x="30" y="-10" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-26" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="-2116" width="280" height="150" as="geometry">
+            <mxRectangle x="-560" y="-2110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-27" value="Permite la asignación de recursos y la ejecución de las tareas de los Notebooks.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-26">
+          <mxGeometry x="35" y="86" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-28" value="" style="group" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-26">
+          <mxGeometry x="30" y="20" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/cluster-data-group-organize-128.png" vertex="1" parent="G3ME666Q92qwcPsf1QOO-28">
+          <mxGeometry y="5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Clusteres&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(Compontente: &lt;br&gt;Computo de Databricks)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="G3ME666Q92qwcPsf1QOO-28">
+          <mxGeometry x="50" y="-10" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="G3ME666Q92qwcPsf1QOO-18" target="G3ME666Q92qwcPsf1QOO-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-344" y="-1860" as="sourcePoint" />
+            <mxPoint x="-294" y="-1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-32" value="Usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-31">
+          <mxGeometry x="-0.1113" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="G3ME666Q92qwcPsf1QOO-18" target="G3ME666Q92qwcPsf1QOO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-754" y="-1990" as="sourcePoint" />
+            <mxPoint x="-704" y="-2040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-804" y="-2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3ME666Q92qwcPsf1QOO-34" value="Escribe datos en&lt;br&gt;(Formato Parquet)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3ME666Q92qwcPsf1QOO-33">
+          <mxGeometry x="0.2229" y="-27" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
