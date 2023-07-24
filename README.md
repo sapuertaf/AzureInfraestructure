@@ -66,7 +66,7 @@ A continuación, se explica brevemente la infraestructura creada y a ser usada:
 
 En este video se detalla la creación de la infraestructura para la implementación del proyecto recientemente descrito. 
 
-[Contexto Azure.mp4](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/Contexto_Azure.mp4)
+[Contexto Azure.mp4](https://www.notion.so/ronald-notebook/Contexto-anal-tica-Nube-Microsoft-Azure-f2a6703d23f94e879cf73475bc1aa8e3#4cb71f36a27a448eb179f4bc5028c03a)
 
 ### Código implementado para la solución
 
@@ -265,7 +265,7 @@ A continuación, se explica brevemente los recursos usados y su función.
 
 En este video se detalla la creación de la infraestructura para la implementación del proyecto recientemente descrito. 
 
-[Implementación Infraestructura Databricks.mp4](Contexto%20anali%CC%81tica%20Nube%20Microsoft%20Azure%20f2a6703d23f94e879cf73475bc1aa8e3/gvo-sfex-fty_(2023-07-24_12_36_GMT-5).mp4)
+[Implementación Infraestructura Databricks.mp4](https://www.notion.so/ronald-notebook/Contexto-anal-tica-Nube-Microsoft-Azure-f2a6703d23f94e879cf73475bc1aa8e3#fe4eb07e6e7f44dfac5cae84ab81cfab)
 
 ### Código implementado para la solución
 
